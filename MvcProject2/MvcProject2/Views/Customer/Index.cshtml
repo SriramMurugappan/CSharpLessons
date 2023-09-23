@@ -1,0 +1,10 @@
+﻿@model MvcProject2.Models.CustomerIdViewModel
+<div>
+	<h1>Index</h1>
+	<h4>CustomerIds</h4>
+	<hr />
+	<form asp-asp-controller="Customer" method="post" asp-action="Details">
+		<select asp-for="Id" asp-items="Model.CustomerIdSelectedList"></select>
+		<button type="submit">Details</button>
+	</form>
+</div>

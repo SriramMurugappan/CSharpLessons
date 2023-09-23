@@ -1,0 +1,9 @@
+﻿@* @model MvcProject2.Models.RepositoryOrders
+@{
+	ViewData["Title"] = "Index";
+}
+<form asp-asp-controller="Order" method="post" asp-action="Details">
+	<select asp-for="SelectedId" asp-items="Model.OrderSelectView">
+	</select>
+	<button type="submit">details</button>
+</form> *@
